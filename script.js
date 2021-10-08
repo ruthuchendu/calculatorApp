@@ -7,9 +7,9 @@ buttons.forEach(btn => {
         const style = event.currentTarget.classList;
 
         if (style.contains("number")) {
-        if (screen.value <= 0) {
-            screen.value = "";
-        }
+//         if (screen.value <= 0) {
+//             screen.value = "";
+//         }
         
         let number = btn.textContent;
         screen.value += number;
@@ -19,7 +19,7 @@ buttons.forEach(btn => {
      screen.value = value;
 
      } else if (style.contains("clear")) {
-         screen.value = 0;
+         screen.value = "";
      
      } else if (style.contains("backspace")) {
     screen.value = screen.value.substring(0, screen.value.length - 1);
