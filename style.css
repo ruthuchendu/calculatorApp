@@ -10,7 +10,7 @@ body {
 .container {
     display: block;
     justify-content: space-evenly;
-    width: 300px
+    width: 200px
     /* max-height: 100vh; */
     align-items: center;
     margin: auto;
