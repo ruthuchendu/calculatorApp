@@ -7,9 +7,15 @@ buttons.forEach(btn => {
         const style = event.currentTarget.classList;
 
         if (style.contains("number")) {
+
         // if (screen.value <= 0) {
             // screen.value = "";
         // }
+
+//         if (screen.value <= 0) {
+//             screen.value = "";
+//         }
+
         
         let number = btn.textContent;
         screen.value += number;
