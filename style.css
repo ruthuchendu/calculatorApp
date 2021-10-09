@@ -8,7 +8,7 @@ body {
     background: linear-gradient(to right, #00ff5a, cyan);
 }
 .container {
-    margin-top: 40px;
+    top: 40px;
     display: block;
     justify-content: space-evenly;
      width: 300px;
