@@ -16,6 +16,9 @@ buttons.forEach(btn => {
 //             screen.value = "";
 //         }
 
+//         if (screen.value <= 0) {
+//             screen.value = "";
+//         }
         
         let number = btn.textContent;
         screen.value += number;
